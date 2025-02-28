@@ -1,0 +1,93 @@
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .form-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .news-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+  }
+
+  .home-button {
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .home-button:hover {
+    background: #218838;
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  
