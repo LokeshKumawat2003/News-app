@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+log-*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build files
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+kubernetes/secrets.yml
+kubernetes/config.yml
+
+# MongoDB Data
+mongo-data/
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+Thumbs.db
