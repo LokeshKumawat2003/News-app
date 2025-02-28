@@ -22,7 +22,7 @@ const NewsForm = () => {
     const newNews = { title, category, content };
 
     try {
-      const response = await fetch("http://localhost:3000/news", {
+      const response = await fetch("https://news-8xg3.onrender.com/news", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newNews),
