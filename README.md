@@ -1,5 +1,10 @@
 # Real-Time News Feed Application
 
+## 🌐 Demo
+Check out the live demo of the application [here](https://elaborate-lolly-ed8d36.netlify.app/).
+
+
+
 ## 📌 Project Overview
 A real-time news feed application that:
 
@@ -12,8 +17,3 @@ A real-time news feed application that:
 - **Frontend:** React, Redux, Axios, Socket.io-client  
 - **Backend:** Node.js, Express.js, Socket.io, MongoDB  
 - **Database:** MongoDB (Mongoose for schema modeling)  
-
-## 🌐 Demo
-Check out the live demo of the application [here](https://your-demo-link.com).
-
-## 🏗️ Project Structure
